@@ -5,29 +5,17 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.3</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>3.5.0</version> <!-- ✅ 3.5.x වලට upgrade -->
+        <relativePath/>
     </parent>
     <groupId>lk.ijse</groupId>
     <artifactId>config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>config-server</name>
     <description>config-server</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+
     <properties>
-        <java.version>25</java.version>
+        <java.version>21</java.version> <!-- ✅ 25 → 21 (stable LTS) -->
         <spring-cloud.version>2025.0.1</spring-cloud.version>
     </properties>
 
