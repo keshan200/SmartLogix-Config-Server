@@ -3,6 +3,8 @@ spring:
     name: config-server
   cloud:
     config:
+      bootstrap:
+          enabled: true
       server:
         git:
           uri: https://github.com/keshan200/SmartLogix-Configurations.git
